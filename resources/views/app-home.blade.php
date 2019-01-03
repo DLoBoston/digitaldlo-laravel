@@ -10,7 +10,7 @@
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="//{{ $_SERVER['HTTP_HOST'] }}">
                 <img src="{{ URL::asset('img/cropped-digital-dlo.jpg') }}" width="30" height="30" class="d-inline-block align-top" alt="Digital D.Lo - the man, the myth, the legend">
                 Digital D.Lo
             </a>
