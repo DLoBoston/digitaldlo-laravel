@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-4.2.1.min.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/dd-custom.css') }}">
-        <title>Digital D.Lo Dev Playground Home</title>
+        <title>Digital D.Lo - @yield('title')</title>
     </head>
   <body>
     <header>
@@ -47,8 +47,8 @@
       <div class="container">
         <main class="row">
             <div class="col">
-                <h1>Development Playground</h1>
-                <p>Proof-of-concept, experimental development, coming soon...</p>                
+                <h1>@yield('title')</h1>
+                @yield('content')
             </div>
         </main>
         <footer class="row">
