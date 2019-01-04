@@ -11,7 +11,7 @@ body header {
 /* Creates transparent image behind header */
 body header:after {
     content: '';
-    background-image: url('/apps/img/cropped-bar-harbor-dlo-landscape-web.jpg');
+    background-image: url('/dev/img/cropped-bar-harbor-dlo-landscape-web.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,13 +29,19 @@ body header nav.navbar a {
     border-bottom: 3px solid transparent;
 }
 
-body header nav.navbar a:hover {
+body header nav.navbar a:hover,
+body header nav.navbar a.active {
     padding-bottom: 0;
     border-bottom: 3px solid #33B26E;
 }
 
 body main {
     background-color: #FFF;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+body main h2 {
     margin-bottom: 1rem;
 }
 
@@ -48,4 +54,9 @@ body footer {
 
 body footer p {
     margin: 0;
+}
+
+[v-cloak] {
+    display: none;
+    
 }

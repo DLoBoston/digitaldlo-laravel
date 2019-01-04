@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-4.2.1.min.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/dd-custom.css') }}">
+        @stack('scripts-head')
         <title>Digital D.Lo - @yield('title')</title>
     </head>
   <body>
@@ -26,7 +27,7 @@
                       <a class="nav-link" href="//{{ $_SERVER['HTTP_HOST'] }}/portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="{{ url('/')}}">Dev</a>
+                      <a class="nav-link active" href="{{ url('/')}}">Dev</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="//{{ $_SERVER['HTTP_HOST'] }}/blog">Blog</a>
@@ -47,7 +48,11 @@
       <div class="container">
         <main class="row">
             <div class="col">
-                <h1>@yield('title')</h1>
+                @yield('breadcrumbs')
+                <h2>
+                    @yield('title')
+                    <small class="text-muted">@yield('sub-title')</small>
+                </h2>
                 @yield('content')
             </div>
         </main>
