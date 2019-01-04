@@ -11,7 +11,7 @@ body header {
 /* Creates transparent image behind header */
 body header:after {
     content: '';
-    background-image: url('/apps/img/cropped-bar-harbor-dlo-landscape-web.jpg');
+    background-image: url('/dev/img/cropped-bar-harbor-dlo-landscape-web.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
