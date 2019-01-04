@@ -36,6 +36,11 @@ body header nav.navbar a:hover {
 
 body main {
     background-color: #FFF;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+body main h2 {
     margin-bottom: 1rem;
 }
 

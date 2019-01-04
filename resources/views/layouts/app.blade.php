@@ -47,7 +47,10 @@
       <div class="container">
         <main class="row">
             <div class="col">
-                <h1>@yield('title')</h1>
+                <h2>
+                    @yield('title')
+                    <small class="text-muted">@yield('sub-title')</small>
+                </h2>
                 @yield('content')
             </div>
         </main>
