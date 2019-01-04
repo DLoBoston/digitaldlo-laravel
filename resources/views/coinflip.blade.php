@@ -46,7 +46,7 @@
                     this.being_flipped = true;
                     this.coin_side = null;
                     var img = ((Math.floor((Math.random() * 2) + 1)) % 2 == 0) ? this.img_heads : this.img_tails;
-                    setTimeout(this.display_coin.bind(this, img), 1000);
+                    setTimeout(this.display_coin.bind(null, img), 1000);
                 },
                 
                 // Simply display coin
