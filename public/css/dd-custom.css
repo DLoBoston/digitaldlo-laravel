@@ -29,7 +29,8 @@ body header nav.navbar a {
     border-bottom: 3px solid transparent;
 }
 
-body header nav.navbar a:hover {
+body header nav.navbar a:hover,
+body header nav.navbar a.active {
     padding-bottom: 0;
     border-bottom: 3px solid #33B26E;
 }
@@ -57,4 +58,5 @@ body footer p {
 
 [v-cloak] {
     display: none;
+    
 }

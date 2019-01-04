@@ -27,7 +27,7 @@
                       <a class="nav-link" href="//{{ $_SERVER['HTTP_HOST'] }}/portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="{{ url('/')}}">Dev</a>
+                      <a class="nav-link active" href="{{ url('/')}}">Dev</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="//{{ $_SERVER['HTTP_HOST'] }}/blog">Blog</a>
@@ -48,6 +48,7 @@
       <div class="container">
         <main class="row">
             <div class="col">
+                @yield('breadcrumbs')
                 <h2>
                     @yield('title')
                     <small class="text-muted">@yield('sub-title')</small>
