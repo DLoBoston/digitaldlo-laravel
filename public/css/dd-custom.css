@@ -54,3 +54,7 @@ body footer {
 body footer p {
     margin: 0;
 }
+
+[v-cloak] {
+    display: none;
+}
