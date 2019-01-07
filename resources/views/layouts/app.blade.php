@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-4.2.1.min.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/dd-custom.css') }}">
+	<script src="{{ URL::asset('js/iframeResizer.contentWindow-3.6.3.min.js') }}"></script>
         @stack('scripts-head')
         <title>Digital D.Lo - @yield('title')</title>
     </head>
