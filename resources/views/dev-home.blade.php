@@ -1,10 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Welcome to the Dev Playground')
-
 @section('content')
-    <p>Proof-of-concept, experimental development.</p>
-    
     <div class="card-deck">
 
         <div class="card">
