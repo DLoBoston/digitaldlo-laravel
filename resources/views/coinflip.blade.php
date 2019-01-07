@@ -7,13 +7,8 @@
     <script src="{{ URL::asset('js/vue-2.5.21.js') }}"></script>
 @endpush
 
-@section('breadcrumbs')
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="{{ url('/')}}">Dev Home</a></li>
+@section('breadcrumb')
     <li class="breadcrumb-item active" aria-current="page">Coin Flip</li>
-  </ol>
-</nav>
 @endsection
 
 @section('content')

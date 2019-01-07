@@ -1,62 +1,8 @@
-body {
-    background-color: #2C343C;
+body header h1 {
+    margin-bottom: 1em;
 }
 
-body header {
-    position: relative;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-/* Creates transparent image behind header */
-body header:after {
-    content: '';
-    background-image: url('/dev/img/cropped-bar-harbor-dlo-landscape-web.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.05;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
-
-body header nav.navbar a {
-    padding-bottom: 0;
-    border-bottom: 3px solid transparent;
-}
-
-body header nav.navbar a:hover,
-body header nav.navbar a.active {
-    padding-bottom: 0;
-    border-bottom: 3px solid #33B26E;
-}
-
-body main {
-    background-color: #FFF;
-    padding: 1rem 0;
-    margin-bottom: 1rem;
-}
-
-body main h2 {
-    margin-bottom: 1rem;
-}
-
-body footer {
-    background: rgba(0,0,0,.15);
-    padding: 2%;
-    border-radius: 5px;
-    color: #7D838B;
-}
-
-body footer p {
-    margin: 0;
-}
-
+/* For Vue */
 [v-cloak] {
     display: none;
-    
 }
