@@ -15,21 +15,30 @@
     <main id="app" class="row">
         <div class="col-sm-5 col-md-4 col-lg-3">
             <ul class="list-group">
-              <li class="list-group-item">Hi, D.Lo</li>
-              <li class="list-group-item">Goals / Workout Program</li>
-              <li class="list-group-item">Analysis</li>
-              <li class="list-group-item">Workouts</li>
-              <li class="list-group-item">Add Workout</li>
+              <li class="list-group-item disabled">Hi, D.Lo</li>
+              <li class="list-group-item disabled">Goals / Program</li>
+              <li class="list-group-item disabled">Workouts</li>
+              <li class="list-group-item disabled">Analysis</li>
+              <li class="list-group-item disabled">Add A Workout</li>
             </ul>
         </div>
         <div class="col">
-            <div class="jumbotron">
-              <h1 class="display-4">Hello, world!</h1>
-              <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-              <hr class="my-4">
-              <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <div id="welcome" class="jumbotron">
+              <h1 class="display-4">Let's get started!</h1>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  Go Fit is a simple, effective way to track and improve your fitness.
+                  Start by reviewing your goals and the associated program to reach them.
+                  Then, <a href="#" class="disabled">add a workout</a>!
+              </p>
+              <hr class="my-4">
+              <p>
+                  You can always come back to see/edit what you've done.
+                  After you've got a few workouts under your belt, check out the
+                  analysis section for a deep-dive into your progress, successes,
+                  and areas for improvement.
+              </p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg disabled" href="#" role="button">Add A Workout</a>
               </p>
             </div>
         </div>
