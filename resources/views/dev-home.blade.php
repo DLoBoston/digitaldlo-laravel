@@ -14,8 +14,8 @@
 
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Have You</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Never forget a recurring event again</h6>
+                <h5 class="card-title">Go Fit</h5>
+                <h6 class="card-subtitle mb-2 text-muted">A fitness app to help you get (and stay) in shape.</h6>
                 <p class="card-text"></p>
                 <a href="#" class="btn btn-primary disabled">Coming soon&hellip;</a>
             </div>
