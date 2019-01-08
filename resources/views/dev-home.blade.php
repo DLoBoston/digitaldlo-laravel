@@ -17,7 +17,7 @@
                 <h5 class="card-title">Go Fit</h5>
                 <h6 class="card-subtitle mb-2 text-muted">A fitness app to help you get (and stay) in shape.</h6>
                 <p class="card-text"></p>
-                <a href="#" class="btn btn-primary disabled">Coming soon&hellip;</a>
+                <a href="{{ route('gofit') }}" class="btn btn-primary">Work in progress&hellip;</a>
             </div>
         </div>
         
