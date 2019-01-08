@@ -23,11 +23,7 @@
                 <small class="text-muted">@yield('sub-title')</small>
             </h1>
         </header>
-        <main class="row">
-            <div class="col">
-                @yield('content')
-            </div>
-        </main>
+        @yield('content')
       </div>
         <script src="{{ URL::asset('js/jquery-3.3.1.min.js') }}"></script>
         <script src="{{ URL::asset('js/popper-1.14.6.min.js') }}"></script>
