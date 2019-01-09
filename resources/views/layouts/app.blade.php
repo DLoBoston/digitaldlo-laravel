@@ -8,7 +8,7 @@
         <title>Digital D.Lo - @yield('title')</title>
     </head>
   <body>
-      <div class="container-fluid">
+      <div id="app" class="container-fluid">
         <header>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
