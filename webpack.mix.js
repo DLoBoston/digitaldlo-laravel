@@ -13,8 +13,10 @@ const mix = require('laravel-mix');
 
 mix.disableNotifications();
 
-mix.js(['resources/js/app.js', 'resources/js/iframeResizer.contentWindow-3.6.3.min.js'], 'public/js')
-   .extract(['bootstrap','vue'])
+mix.copy('node_modules/iframe-resizer/js/iframeResizer.contentWindow.js', 'resources/js/iframeResizer.contentWindow.js');
+
+mix.js(['resources/js/app.js', 'resources/js/iframeResizer.contentWindow.js'], 'public/js')
+   .extract()
    .sass('resources/sass/app.scss', 'public/css');
 
 // Version / cache-bust compiled assets
