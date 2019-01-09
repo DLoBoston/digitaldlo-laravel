@@ -3,10 +3,6 @@
 @section('title', 'Go Fit')
 @section('sub-title', "A no-nonsense fitness app to help you get (and stay) in shape")
 
-@push('scripts-head')
-    <script src="{{ URL::asset('js/vue-2.5.21.js') }}"></script>
-@endpush
-
 @section('breadcrumb')
     <li class="breadcrumb-item active" aria-current="page">Go Fit</li>
 @endsection

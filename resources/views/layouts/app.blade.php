@@ -3,9 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
-	<script src="{{ URL::asset('js/iframeResizer.contentWindow-3.6.3.min.js') }}"></script>
-        @stack('scripts-head')
         <title>Digital D.Lo - @yield('title')</title>
     </head>
   <body>
@@ -24,8 +23,8 @@
         </header>
         @yield('content')
       </div>
-        <script src="{{ URL::asset('js/jquery-3.3.1.min.js') }}"></script>
-        <script src="{{ URL::asset('js/popper-1.14.6.min.js') }}"></script>
-        <script src="{{ URL::asset('js/bootstrap-4.2.1.min.js') }}"></script>
+      <script src="{{ mix('/js/manifest.js') }}"></script>
+      <script src="{{ mix('/js/vendor.js') }}"></script>
+      <script src="{{ mix('/js/app.js') }}"></script>
   </body>
 </html>
