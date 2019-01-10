@@ -24,6 +24,8 @@ Vue.component('coin-flip', require('./components/CoinFlip.vue').default);
 
 Vue.component('go-fit', require('./components/GoFit.vue').default);
 Vue.component('gf-nav', require('./components/GfNav.vue').default);
+Vue.component('gf-welcome', require('./components/GfWelcome.vue').default);
+Vue.component('gf-workouts', require('./components/GfWorkouts.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
