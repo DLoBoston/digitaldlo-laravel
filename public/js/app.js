@@ -33,7 +33,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'CoinFlip',
   props: ['img-dir'],
   data: function data() {
     return {
@@ -234,7 +233,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-
+  
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CoinFlip.vue?vue&type=template&id=0675edee&":
 /*!***********************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CoinFlip.vue?vue&type=template&id=0675edee& ***!
@@ -602,7 +601,7 @@ render._withStripped = true
 
 
 /***/ }),
-
+  
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -1047,7 +1046,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-
+  
 /***/ "./resources/js/iframeResizer.contentWindow.js":
 /*!*****************************************************!*\
   !*** ./resources/js/iframeResizer.contentWindow.js ***!
