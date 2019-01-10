@@ -8,5 +8,7 @@
 @endsection
 
 @section('content')
-    <go-fit></go-fit>
+    <go-fit>
+
+    </go-fit>
 @endsection
