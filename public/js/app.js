@@ -33,12 +33,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['img-dir'],
   data: function data() {
     return {
       being_flipped: false,
       // State of coin flip
       coin_side: null,
-      img_dir: '{{ URL::asset("img") }}',
+      img_dir: this.imgDir,
       img_heads: 'cropped-digital-dlo.jpg',
       img_tails: 'tinybeans-tails.jpg'
     };

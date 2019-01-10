@@ -8,5 +8,5 @@
 @endsection
 
 @section('content')
-    <coin-flip></coin-flip>
+    <coin-flip img-dir="{{ URL::asset("img") }}"></coin-flip>
 @endsection

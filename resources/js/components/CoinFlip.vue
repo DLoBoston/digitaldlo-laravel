@@ -23,11 +23,12 @@
 
 <script>
     export default {
+        props: ['img-dir'],
         data () {
             return {
                 being_flipped: false, // State of coin flip
                 coin_side: null,
-                img_dir: '{{ URL::asset("img") }}',
+                img_dir: this.imgDir,
                 img_heads: 'cropped-digital-dlo.jpg',
                 img_tails: 'tinybeans-tails.jpg'
             }
