@@ -23,6 +23,7 @@
 
 <script>
     export default {
+        name: 'CoinFlip',
         props: ['img-dir'],
         data () {
             return {

@@ -33,6 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'CoinFlip',
   props: ['img-dir'],
   data: function data() {
     return {
@@ -63,6 +64,108 @@ __webpack_require__.r(__webpack_exports__);
       this.coin_side = null;
     }
   }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GoFit.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/GoFit.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'GoFit',
+  data: function data() {
+    return {};
+  },
+  methods: {}
 });
 
 /***/ }),
@@ -154,6 +257,211 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GoFit.vue?vue&type=template&id=95a56ba4&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/GoFit.vue?vue&type=template&id=95a56ba4& ***!
+  \********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("main", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-sm-5 col-md-4 col-lg-3" }, [
+        _c("ul", { staticClass: "list-group" }, [
+          _c("li", { staticClass: "list-group-item disabled" }, [
+            _vm._v("Hi, D.Lo")
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "list-group-item disabled" }, [
+            _vm._v("Goals / Program")
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "list-group-item disabled" }, [
+            _vm._v("Workouts")
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "list-group-item disabled" }, [
+            _vm._v("Analysis")
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "list-group-item disabled" }, [
+            _vm._v("Add A Workout")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [
+        _c("div", { staticClass: "jumbotron", attrs: { id: "welcome" } }, [
+          _c("h1", { staticClass: "display-4" }, [
+            _vm._v("Let's get started!")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "\n              Go Fit is a simple, effective way to track and improve your fitness.\n              Start by reviewing your goals and the associated program to reach them.\n              Then, "
+            ),
+            _c("a", { staticClass: "disabled", attrs: { href: "#" } }, [
+              _vm._v("add a workout")
+            ]),
+            _vm._v("!\n          ")
+          ]),
+          _vm._v(" "),
+          _c("hr", { staticClass: "my-4" }),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n              You can always come back to see/edit what you've done.\n              After you've got a few workouts under your belt, check out the\n              analysis section for a deep-dive into your progress, successes,\n              and areas for improvement.\n          "
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-primary btn-lg disabled",
+                attrs: { href: "#", role: "button" }
+              },
+              [_vm._v("Add A Workout")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("Workouts")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "table-responsive" }, [
+          _c("table", { staticClass: "table", attrs: { id: "workouts" } }, [
+            _c("thead", [
+              _c("tr", [
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Workout")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Cycle")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Date")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Actions")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("tbody", [
+              _c("tr", [
+                _c("td", [
+                  _c("h3", { staticClass: "text-nowrap" }, [_vm._v("Cardio")])
+                ]),
+                _c("td", [
+                  _c("div", { staticClass: "text-nowrap" }, [
+                    _c("span", { staticClass: "badge badge-secondary" }, [
+                      _vm._v("Week 1")
+                    ]),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "badge badge-secondary" }, [
+                      _vm._v("Day 2")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "badge badge-info" }, [
+                    _vm._v("Cycle 1")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("td", [_vm._v("2019/01/01")]),
+                _vm._v(" "),
+                _c("td", [
+                  _c("div", { staticClass: "text-nowrap" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-info",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Edit")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-danger",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Delete")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("td", [
+                  _c("h3", { staticClass: "text-nowrap" }, [
+                    _vm._v("531 Bench")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("td", [
+                  _c("div", { staticClass: "text-nowrap" }, [
+                    _c("span", { staticClass: "badge badge-secondary" }, [
+                      _vm._v("Week 1")
+                    ]),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "badge badge-secondary" }, [
+                      _vm._v("Day 1")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "badge badge-info" }, [
+                    _vm._v("Cycle 1")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("td", [_vm._v("2018/12/28")]),
+                _vm._v(" "),
+                _c("td", [
+                  _c("div", { staticClass: "text-nowrap" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-info",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Edit")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-danger",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Delete")]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -180,6 +488,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('coin-flip', __webpack_require__(/*! ./components/CoinFlip.vue */ "./resources/js/components/CoinFlip.vue").default);
+Vue.component('go-fit', __webpack_require__(/*! ./components/GoFit.vue */ "./resources/js/components/GoFit.vue").default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -314,6 +623,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CoinFlip_vue_vue_type_template_id_0675edee___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CoinFlip_vue_vue_type_template_id_0675edee___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/GoFit.vue":
+/*!*******************************************!*\
+  !*** ./resources/js/components/GoFit.vue ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _GoFit_vue_vue_type_template_id_95a56ba4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GoFit.vue?vue&type=template&id=95a56ba4& */ "./resources/js/components/GoFit.vue?vue&type=template&id=95a56ba4&");
+/* harmony import */ var _GoFit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GoFit.vue?vue&type=script&lang=js& */ "./resources/js/components/GoFit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _GoFit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _GoFit_vue_vue_type_template_id_95a56ba4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _GoFit_vue_vue_type_template_id_95a56ba4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/GoFit.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/GoFit.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/GoFit.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoFit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./GoFit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GoFit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GoFit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/GoFit.vue?vue&type=template&id=95a56ba4&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/GoFit.vue?vue&type=template&id=95a56ba4& ***!
+  \**************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoFit_vue_vue_type_template_id_95a56ba4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./GoFit.vue?vue&type=template&id=95a56ba4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GoFit.vue?vue&type=template&id=95a56ba4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoFit_vue_vue_type_template_id_95a56ba4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GoFit_vue_vue_type_template_id_95a56ba4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
