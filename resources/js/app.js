@@ -25,6 +25,9 @@ Vue.component('go-fit', require('./components/GoFit.vue').default);
 Vue.component('gf-nav', require('./components/GfNav.vue').default);
 Vue.component('gf-welcome', require('./components/GfWelcome.vue').default);
 Vue.component('gf-workouts', require('./components/GfWorkouts.vue').default);
+Vue.component('gf-program', require('./components/GfProgram.vue').default);
+Vue.component('gf-analysis', require('./components/GfAnalysis.vue').default);
+Vue.component('gf-workout-form', require('./components/GfWorkoutForm.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -33,5 +36,8 @@ Vue.component('gf-workouts', require('./components/GfWorkouts.vue').default);
  */
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        currentPageComponent: 'gf-welcome'
+    }
 });

@@ -2,23 +2,17 @@
     <main class="row">
         <gf-nav></gf-nav>
         <div class="col">
-            <gf-welcome></gf-welcome>
-            <gf-workouts></gf-workouts>
+            <component v-bind:is="currentPageComponent"></component>
         </div>
     </main>
 </template>
 
 <script>
     export default {
-
-        data () {
-            return {
-                
-            }
-        },
-
-        methods: {
-
+        computed: {
+          currentPageComponent: function () {
+            return this.$root.currentPageComponent
+          }
         }
     }
 </script>
