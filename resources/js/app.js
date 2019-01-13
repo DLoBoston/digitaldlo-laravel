@@ -38,6 +38,11 @@ Vue.component('gf-workout-form', require('./components/GfWorkoutForm.vue').defau
 const app = new Vue({
     el: '#app',
     data: {
-        currentPageComponent: 'gf-welcome'
+        currentPageComponent: 'gf-welcome' // Initial page
+    },
+    methods: {
+        setPageComponent: function(component) {
+            this.$root.currentPageComponent = component;
+        }
     }
 });

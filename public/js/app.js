@@ -91,7 +91,47 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     setPageComponent: function setPageComponent(component) {
-      this.$root.currentPageComponent = component;
+      this.$root.setPageComponent(component);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GfWelcome.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/GfWelcome.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    setPageComponent: function setPageComponent(component) {
+      this.$root.setPageComponent(component);
     }
   }
 });
@@ -395,47 +435,56 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "jumbotron", attrs: { id: "welcome" } }, [
-      _c("h1", { staticClass: "display-4" }, [_vm._v("Let's get started!")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "lead" }, [
-        _vm._v(
-          "\n      Go Fit is a simple, effective way to track and improve your fitness.\n      Start by reviewing your goals and the associated program to reach them.\n      Then, "
-        ),
-        _c("a", { staticClass: "disabled", attrs: { href: "#" } }, [
-          _vm._v("add a workout")
-        ]),
-        _vm._v("!\n  ")
-      ]),
-      _vm._v(" "),
-      _c("hr", { staticClass: "my-4" }),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n      You can always come back to see/edit what you've done.\n      After you've got a few workouts under your belt, check out the\n      analysis section for a deep-dive into your progress, successes,\n      and areas for improvement.\n  "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "lead" }, [
-        _c(
-          "a",
-          {
-            staticClass: "btn btn-primary btn-lg disabled",
-            attrs: { href: "#", role: "button" }
-          },
-          [_vm._v("Add A Workout")]
-        )
-      ])
+  return _c("div", { staticClass: "jumbotron", attrs: { id: "welcome" } }, [
+    _c("h1", { staticClass: "display-4" }, [_vm._v("Let's get started!")]),
+    _vm._v(" "),
+    _c("p", { staticClass: "lead" }, [
+      _vm._v(
+        "\n      Go Fit is a simple, effective way to track and improve your fitness.\n      Start by reviewing your goals and the associated program to reach them.\n      Then, "
+      ),
+      _c(
+        "a",
+        {
+          attrs: { href: "" },
+          on: {
+            click: function($event) {
+              $event.preventDefault()
+              _vm.setPageComponent("gf-workout-form")
+            }
+          }
+        },
+        [_vm._v("add a workout")]
+      ),
+      _vm._v("!\n  ")
+    ]),
+    _vm._v(" "),
+    _c("hr", { staticClass: "my-4" }),
+    _vm._v(" "),
+    _c("p", [
+      _vm._v(
+        "\n      You can always come back to see/edit what you've done.\n      After you've got a few workouts under your belt, check out the\n      analysis section for a deep-dive into your progress, successes,\n      and areas for improvement.\n  "
+      )
+    ]),
+    _vm._v(" "),
+    _c("p", { staticClass: "lead" }, [
+      _c(
+        "a",
+        {
+          staticClass: "btn btn-primary btn-lg",
+          attrs: { href: "", role: "button" },
+          on: {
+            click: function($event) {
+              $event.preventDefault()
+              _vm.setPageComponent("gf-workout-form")
+            }
+          }
+        },
+        [_vm._v("Add A Workout")]
+      )
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -683,7 +732,13 @@ Vue.component('gf-workout-form', __webpack_require__(/*! ./components/GfWorkoutF
 var app = new Vue({
   el: '#app',
   data: {
-    currentPageComponent: 'gf-welcome'
+    currentPageComponent: 'gf-welcome' // Initial page
+
+  },
+  methods: {
+    setPageComponent: function setPageComponent(component) {
+      this.$root.currentPageComponent = component;
+    }
   }
 });
 
@@ -1001,15 +1056,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _GfWelcome_vue_vue_type_template_id_cf2a23b0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GfWelcome.vue?vue&type=template&id=cf2a23b0& */ "./resources/js/components/GfWelcome.vue?vue&type=template&id=cf2a23b0&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _GfWelcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GfWelcome.vue?vue&type=script&lang=js& */ "./resources/js/components/GfWelcome.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _GfWelcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _GfWelcome_vue_vue_type_template_id_cf2a23b0___WEBPACK_IMPORTED_MODULE_0__["render"],
   _GfWelcome_vue_vue_type_template_id_cf2a23b0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -1023,6 +1080,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/GfWelcome.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/GfWelcome.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/GfWelcome.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GfWelcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./GfWelcome.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GfWelcome.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GfWelcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 

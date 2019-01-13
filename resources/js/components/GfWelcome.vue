@@ -4,7 +4,7 @@
       <p class="lead">
           Go Fit is a simple, effective way to track and improve your fitness.
           Start by reviewing your goals and the associated program to reach them.
-          Then, <a href="#" class="disabled">add a workout</a>!
+          Then, <a href="" v-on:click.prevent="setPageComponent('gf-workout-form')">add a workout</a>!
       </p>
       <hr class="my-4">
       <p>
@@ -14,7 +14,17 @@
           and areas for improvement.
       </p>
       <p class="lead">
-        <a class="btn btn-primary btn-lg disabled" href="#" role="button">Add A Workout</a>
+          <a href="" class="btn btn-primary btn-lg" role="button" v-on:click.prevent="setPageComponent('gf-workout-form')">Add A Workout</a>
       </p>
     </div>
 </template>
+
+<script>
+    export default {
+        methods: {
+            setPageComponent: function(component) {
+                this.$root.setPageComponent(component);
+            }
+        }
+    }
+</script>
