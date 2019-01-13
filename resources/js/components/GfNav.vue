@@ -1,26 +1,21 @@
 <template>
     <div class="col-sm-5 col-md-4 col-lg-3">
-        <ul class="list-group">
-          <li class="list-group-item disabled">Hi, D.Lo</li>
-          <li class="list-group-item disabled">Goals / Program</li>
-          <li class="list-group-item disabled">Workouts</li>
-          <li class="list-group-item disabled">Analysis</li>
-          <li class="list-group-item disabled">Add A Workout</li>
-        </ul>
+        <div class="list-group">
+          <a href="" class="list-group-item list-group-item-action" v-on:click.prevent="setPageComponent('gf-welcome')">Hi, D.Lo</a>
+          <a href="" class="list-group-item list-group-item-action" v-on:click.prevent="setPageComponent('gf-program')">Goals / Program</a>
+          <a href="" class="list-group-item list-group-item-action" v-on:click.prevent="setPageComponent('gf-workouts')">Workouts</a>
+          <a href="" class="list-group-item list-group-item-action" v-on:click.prevent="setPageComponent('gf-analysis')">Analysis</a>
+          <a href="" class="list-group-item list-group-item-action" v-on:click.prevent="setPageComponent('gf-workout-form')">Add A Workout</a>
+        </div>
     </div>
 </template>
 
 <script>
     export default {
-
-        data () {
-            return {
-                
-            }
-        },
-
         methods: {
-
+            setPageComponent: function(component) {
+                this.$root.currentPageComponent = component;
+            }
         }
     }
 </script>
