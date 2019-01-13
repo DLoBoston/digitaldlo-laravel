@@ -14,7 +14,7 @@
     export default {
         methods: {
             setPageComponent: function(component) {
-                this.$root.currentPageComponent = component;
+                this.$root.setPageComponent(component);
             }
         }
     }
